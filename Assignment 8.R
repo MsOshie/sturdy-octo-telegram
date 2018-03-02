@@ -1,0 +1,5 @@
+x=read.table(file.choose(),header = TRUE,sep = ",")
+install.packages("plyr")
+library(plyr)
+y = ddply(x,"Sex",transform, Grade.Average=mean(Grade))
+write.table(y,"Sorted_Average")
