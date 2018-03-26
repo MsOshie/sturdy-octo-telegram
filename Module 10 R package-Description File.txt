@@ -1,0 +1,12 @@
+Description File
+
+Package: Black History Month Vis 
+Title: Displays a word cloud of Dr. Martin Luther King Jr.’s Speech
+Version: 1.0
+Authors@R: "Stephy <stephyoge@mail.usf.edu> [Stephy, Stephy]"
+Description: The package will provide a visual in the shape of a visual that expresses Black pride using the powerful words of Dr. Martin Luther King Jr. in one of his powerful speeches.
+Depends: install.package("tm", dependencies = TRUE)
+	install.packages (“wordcloud” , dependencies = TRUE)
+install.packages (“RColorBrewer” , dependencies = TRUE)
+License: CO0 1.0 Universal (CC0 1.0)
+LazyData: TRUE
